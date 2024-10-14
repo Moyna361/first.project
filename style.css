@@ -1,0 +1,32 @@
+
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(241, 235, 235);
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.wait {
+    color: rgb(98, 154, 14);
+}
+.more {
+    color: rgb(70, 70, 212);
+}
