@@ -1,0 +1,41 @@
+
+
+h1{
+    background-color: rgb(169, 179, 160);
+    border: 2px solid black;
+    margin: 30px;
+    padding: 20px;
+    color: darkmagenta;
+}
+
+#Yousuf{
+    border: 2px solid black;
+    background-color: rgb(100, 187, 237);
+    border-radius: 20px;
+    margin: 50px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    
+
+}
+
+span{
+    color: rgb(185, 207, 115);
+    background-color: rgb(237, 100, 200);
+    border: 3px solid black;
+    height: 200px;
+    display: inline-block;
+}
+
+#Ma{
+    background-color: rgb(215, 199, 81);
+    border: 2px solid black;
+   
+}
+#Dev{
+    background-color: rgb(122, 140, 223);
+    border: 2px solid black;
+  visibility: initial;
+}

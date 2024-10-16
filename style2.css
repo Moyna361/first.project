@@ -1,0 +1,122 @@
+.loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid magenta;
+    border-top: 10px solid rgb(6, 56, 76);
+    animation: spinAnimate 2s ease-in 0s infinite normal;
+
+}
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.maryam {
+    height: 100px;
+    width: 100px;
+    margin: 60px;
+    background-color: cornflowerblue;
+    transform: scale(2, 1);
+}
+.maria {
+    height: 100px;
+    width: 100px;
+    margin: 60px;
+    background-color: bisque;
+    transform: rotate(180deg);
+
+}
+#ayesha {
+    height: 100px;
+    width: 100px;
+    margin: 60px;
+    background-color: aqua;
+    transform: translateX(300px);
+
+}
+#hafsa {
+    height: 100px;
+    width: 100px;
+    margin: 60px;
+    padding: 5px;
+    background-image: url('./box6_img.jpeg');
+    background-size: cover;
+}
+
+.khadija {
+    height: 100px;
+    width: 100px;
+    margin: 60px;
+    background-color: rgb(9, 187, 236);
+    border-radius: 50%;
+    animation-name: colorAnimate;
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+@keyframes colorAnimate {
+    from {
+        background-color: rgb(9, 187, 236);
+    }
+    to {
+        background-color: crimson;
+    }
+}
+
+.moyna {
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    background-color: rgb(202, 16, 137);
+    position: absolute;
+    animation-name: positionAnimate;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes positionAnimate {
+    from {
+        left: 0px;
+        
+    }
+    to {
+        left: 600px;
+        background-image: url('./box10_img.jpeg');
+        background-size: cover;
+    }
+}
+.ab {
+    height: 200px;
+    width: 200px;
+    margin: 250px;
+    background-color: rgb(202, 16, 137);
+    position: absolute;
+    animation-name: sizeAnimate;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes sizeAnimate {
+    0% {
+        left: 0px;
+        
+    }
+    50% {
+        left: 400px;
+        background-image: url('./box13_img.jpeg');
+        background-size: cover;
+    }
+    100% {
+        left: 800px;
+        background-image: url('./box8_img.jpeg');
+        background-size: cover;
+    }
+}    
