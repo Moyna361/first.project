@@ -39,3 +39,8 @@ span{
     border: 2px solid black;
   visibility: initial;
 }
+
+#didi{
+    background-color: rgb(206, 81, 215);
+    border: 2px solid black;
+}
